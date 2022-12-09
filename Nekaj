@@ -13,17 +13,17 @@ mkdir datoteke
 bash 2
 
 for((i=4; i>=0; i--))
-
+do 
   mkdir folder"$i"
-
+done
 
 
 #bash 3
 
 for ((i=25; i>=22; i--))
-
+do
  useradd -m -G sudo user"$i"
-
+done
 
 #bash 4
 
