@@ -13,24 +13,24 @@ mkdir datoteke
 bash 2
 
 for((i=4; i>=0; i--))
-do
+
   mkdir folder"$i"
-done
+
 
 
 #bash 3
 
 for ((i=25; i>=22; i--))
-do
+
  useradd -m -G sudo user"$i"
-done
+
 
 #bash 4
 
-do
+
 sudo apt list --upgradable
 sudo apt-get update
-done
+
 
 
 #bash 5
@@ -46,7 +46,7 @@ sudo apt-get install -y net-tools
 
 
 #bash 6
-do
+
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg  lsb-release
@@ -56,4 +56,4 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo docker run hello-world
-done
+
