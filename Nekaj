@@ -23,9 +23,6 @@ done
 for ((i=25; i>=22; i--))
 do
  useradd -m -G sudo user"$i"
-
-
-
 done
 
 #bash 4
