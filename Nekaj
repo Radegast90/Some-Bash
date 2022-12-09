@@ -1,6 +1,6 @@
 #! usr/bin/bash
 
-bash 1
+#bash 1
 
 mkdir Namizje
 mkdir slike 
@@ -18,7 +18,7 @@ do
 done
 
 
-bash 3
+#bash 3
 
 for ((i=25; i>=22; i--))
 do
@@ -30,7 +30,7 @@ readarray -t Arr < bash
 
 done
 
-bash 4
+#bash 4
 
 do
 sudo apt list --upgradable
@@ -38,9 +38,8 @@ sudo apt-get update
 done
 
 
-bash 5
+#bash 5
 
-ufw, git , 
 
 sudo apt install ufw
 sudo apt-get install git-all
@@ -51,7 +50,7 @@ sudo apt-get install -y net-tools
 
 
 
-bash 6
+#bash 6
 do
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
